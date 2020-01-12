@@ -1,0 +1,6 @@
+function getLetter(s) {
+    let letter;
+    // Write your code here
+     return s.charAt(0).match(/^[aeiou]/)?'A':s.charAt(0).match(/^[bcdfg]/)?'B':s.charAt(0).match(/^[hjklm]/)?
+     'C':s.charAt(0).match(/^[npqrstvwxyz]/)?'D':'Invalid input';
+    }
